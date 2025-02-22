@@ -78,7 +78,6 @@ if uploaded_files:
             df.to_excel(buffer, index=False)
             file_name = file.name.replace(file_ext,".xlsx")
             mime_type = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" 
-
         buffer.seek(0)
 
             #Download button
