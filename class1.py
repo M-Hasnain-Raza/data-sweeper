@@ -84,7 +84,7 @@ if uploaded_files:
             st.download_button(
                label=f"download {file.name} as {conversion_type}",
                data=buffer,
-               filename=file_name,
+               file_name=file_name,
                mime=mime_type
             )
 st.success("all files processed succesfully!")
