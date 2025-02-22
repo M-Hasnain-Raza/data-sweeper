@@ -77,7 +77,7 @@ if uploaded_files:
             elif conversion_type == "Excel":
               df.to_excel(buffer, index=False)
               file_name = file.name.replace(file_ext,".xlsx")
-              mime_type = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" 
+              mime_type = "application/vnd.calamineformats-officedocument.spreadsheetml.sheet" 
             buffer.seek(0)
 
             #Download button
