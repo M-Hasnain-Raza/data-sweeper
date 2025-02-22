@@ -82,7 +82,7 @@ if uploaded_files:
 
             #Download button
             st.download_button(
-               label=f"download {file.name} as {conversion_type}",
+               label=f"download {file.name} {file_name}", #as {conversion_type}
                data=buffer,
                file_name=file_name,
                mime=mime_type
